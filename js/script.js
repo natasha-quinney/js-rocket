@@ -10,7 +10,6 @@
 			if (state == 2) {
 				timer = setInterval(function() {
 					countdownNumber = countdownNumber - 1;
-
 					document.getElementById('countdown').innerHTML = countdownNumber;
 
 					if(countdownNumber <= 0) {
