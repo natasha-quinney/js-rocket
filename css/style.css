@@ -47,7 +47,7 @@ body.body-state1 .rocket {
 }
 /*rocket backgrounds*/
 body.body-state2 .rocket {
-	background: url(../img/rocket-takeoff.png) no-repeat 0 0;
+	background: url(../img/rocket-takeoff.gif) no-repeat 0 0;
 	background-size: 100%;
 }
 body.body-state3 .rocket {
@@ -55,14 +55,14 @@ body.body-state3 .rocket {
 	background-size: 100%;
 }
 body.body-state4 .rocket {
-	background: url(../img/rocket-flying.png) no-repeat 0 0;
+	background: url(../img/rocket-flying.gif) no-repeat 0 0;
 	background-size: 100%;
 }
 body.body-state5 .rocket {
-	background: url(../img/rocket-boom.png) no-repeat 0 0;
+	background: url(../img/rocket-boom.gif) no-repeat 0 0;
 	background-size: 100%;
 	bottom: 10px;
-	transition: bottom 3s linear;
+	transition: bottom 3s ease-in;
 }
 
 body.body-state3 .rocket, 
